@@ -63,8 +63,8 @@ You can use the following command to access the Airflow UI: `/opt/airflow/start.
 
 ## Future Considerations
 
-We can incorporate Airflow so that data we can limit the cron job manual action. Also, clear interface with run of each steps can be easily identified.This architecture can easily support large amounts of new data, scheduling tasks to 
-run regularly, and involving other team members. Team members can be added with the help of IAM roles.
+We can clear interface with run of each steps can be easily identified.This architecture can easily support large amounts of new data, scheduling tasks to 
+run regularly, and involving other team members. Team members can be added with the help of IAM roles. We can use SparkSQL to clean and quantify large amounts of data at once.
 
 ## Contributing
 Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
